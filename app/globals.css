@@ -14,10 +14,26 @@
   }
 }
 
+html,
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: black;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 250px;
+  border: 1px solid red;
+}
+
+header,
+footer {
+  overflow: hidden;
 }
 
 @layer utilities {
